@@ -1,4 +1,4 @@
-import { PokemonResumo } from "./Pokemon";
+import { PokemonResumo } from "../models/Pokemon";
 
 export class CatalogoPokemon {
     private pokemons: PokemonResumo[] = [];

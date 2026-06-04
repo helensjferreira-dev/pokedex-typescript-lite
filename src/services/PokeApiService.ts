@@ -1,4 +1,4 @@
-import { PokemonResumo, PokemonApiResponse } from "./models/Pokemon";
+import { PokemonResumo, PokemonApiResponse } from "../models/Pokemon";
 
 export async function buscarPokemon (nomeOuId : string): Promise <PokemonResumo | null> {
 
