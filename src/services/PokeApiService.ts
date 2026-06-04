@@ -9,7 +9,15 @@ export async function buscarPokemon (nomeOuId : string): Promise <PokemonResumo 
             return null;
         }
         const dados: PokemonApiResponse = await resposta.json();
-        // Maping
+        // Mapping
+        const pokemonResumo: PokemonResumo = {
+            id: dados.id,
+            nome: dados.name,
+            tipos: dados.types.map(t => t.type.name),
+            altura: dados.height,
+            peso: dados.weight
+        };
+        return pokemonResumo;
 
 
     } catch (erro) {
