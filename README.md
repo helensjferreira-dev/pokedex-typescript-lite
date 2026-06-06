@@ -132,7 +132,7 @@ npm run dev
 Exemplo de busca de um Pokémon existente utilizando a PokeAPI, com retorno de dados formatados no terminal.
 
 <p align="left">
-  <img src="./assets/images/teste-busca-valida.png" alt="Printscreen Busca válida"/>
+  <img src="assets/images/teste-busca-valida.png" alt="Printscreen Busca válida"/>
 </p>
 
 ---
@@ -142,7 +142,7 @@ Exemplo de busca de um Pokémon existente utilizando a PokeAPI, com retorno de d
 Demonstração da adição de um Pokémon e da regra de negócio que impede inserir duplicados no catálogo.
 
 <p align="left">
-  <img src="./assets/images/teste-adicao-duplicidade.png" alt="Printscreen Adicionar e duplicar Pokémon"/>
+  <img src="assets/images/teste-adicao-duplicidade.png" alt="Printscreen Adicionar e duplicar Pokémon"/>
 </p>
 
 ---
@@ -152,7 +152,7 @@ Demonstração da adição de um Pokémon e da regra de negócio que impede inse
 Exemplo da exibição dos Pokémon armazenados no catálogo, mostrando ID, nome e tipos.
 
 <p align="left">
-  <img src="./assets/images/teste-listagem.png" alt="Printscreen Listagem"/>
+  <img src="assets/images/teste-listagem.png" alt="Printscreen Listagem"/>
 </p>
 
 ---
@@ -162,7 +162,7 @@ Exemplo da exibição dos Pokémon armazenados no catálogo, mostrando ID, nome 
 Remoção de um Pokémon do catálogo utilizando seu ID, com mensagem de confirmação exibida no terminal.
 
 <p align="left">
-  <img src="./assets/images/teste-remocao.png" alt="Printscreen Remoção de Pokémon"/>
+  <img src="assets/images/teste-remocao.png" alt="Printscreen Remoção de Pokémon"/>
 </p>
 
 ---
@@ -172,7 +172,7 @@ Remoção de um Pokémon do catálogo utilizando seu ID, com mensagem de confirm
 Exemplo da mensagem exibida quando o catálogo está vazio após a remoção.
 
 <p align="left">
-  <img src="./assets/images/teste-listagem-apos-remocao.png" alt="Printscreen Listagem após remoção"/>
+  <img src="assets/images/teste-listagem-apos-remocao.png" alt="Printscreen Listagem após remoção"/>
 </p>
 
 ---
@@ -182,7 +182,7 @@ Exemplo da mensagem exibida quando o catálogo está vazio após a remoção.
 Demonstração do tratamento de erro ao tentar buscar um Pokémon inexistente na API.
 
 <p align="left">
-  <img src="./assets/images/teste-busca-invalida.png" alt="Printscreen Busca inválida"/>
+  <img src="assets/images/teste-busca-invalida.png" alt="Printscreen Busca inválida"/>
 </p>
 
 
@@ -232,9 +232,12 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos:
 - **Organização de fluxo de desenvolvimento**  
   Aplicação de GitFlow e divisão do projeto em fases, garantindo evolução incremental e estruturada. 
 
+---
+
 ### 📚 API utilizada
 
 [🔗 Link da API](https://pokeapi.co/)
+
 
 
 ### 📋 Organização do Kanban
@@ -242,6 +245,8 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos:
 Visualização do fluxo de desenvolvimento no GitHub Projects (Kanban):
 
 [🔗 Kanban](https://github.com/users/helensjferreira-dev/projects/4/views/1)
+
+
 
 ### 🌿 Branches utilizadas
 
@@ -253,6 +258,8 @@ Visualização do fluxo de desenvolvimento no GitHub Projects (Kanban):
 - feature/controller-flow;
 - feature/main-testing;
 - docs/readme.
+
+---
 
 ### 🚀 Melhorias futuras
 
